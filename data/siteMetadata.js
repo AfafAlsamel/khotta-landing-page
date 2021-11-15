@@ -8,10 +8,10 @@ const siteMetadata = {
     siteRepo: 'https://github.com/timlrx/timlrx.com',
     image: '/static/img/avatar.png',
     socialBanner: '/static/img/twitter-card.png',
-    email: 'timothy.lin@alumni.ubc.ca',
-    github: 'https://github.com/timlrx',
-    twitter: 'https://twitter.com/timlrxx',
-    linkedin: 'https://www.linkedin.com/in/timlrx',
+    email: 'info@axenda.io',
+    github: 'https://github.com/axenda',
+    twitter: 'https://twitter.com/AxendaTeam',
+    linkedin: 'https://www.linkedin.com/in/AxendaTeam',
     locale: 'en-US',
     analytics: {
       // supports plausible, simpleAnalytics or googleAnalytics
