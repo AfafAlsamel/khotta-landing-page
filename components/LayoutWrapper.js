@@ -12,7 +12,7 @@ const LayoutWrapper = ({ children }) => {
   return (
     <SectionContainer>
       <div className=" flex flex-col justify-between h-full">
-        <header className="flex bg-transparent items-center justify-between py-10">
+        <header className="flex bg-black items-center justify-between p-8">
           <div>
             <Link href="/" aria-label="Tailwind CSS Blog">
               <div className="flex items-start justify-between">

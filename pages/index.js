@@ -1,38 +1,74 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import Feature from '../components/Feature';
+import FeatureRe from '../components/FeatureRe';
+import Illustration from '../public/planspic.svg';
+import Illustration2 from '../public/reminderspic.svg';
+import Illustration3 from '../public/rockets.svg';
+import Illustration4 from '../public/spacecraft.svg';
+
+
+
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
-    <div className="bg-gradient-to-l md:bg-gradient-to-r">
-  <div>
-    <div className="lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32">
-      <main className="mt-16">
-        <div className="justify-start ">
-          <h1 className="text-4xl tracking-tight font-bold md:font-sans text-white sm:text-5xl md:text-6xl">
-            <span>Plan your academic life effectively</span>
-          </h1>
-          <p className="mt-3 text-base text-white sm:mt-5 sm:text-lg sm:max-w-xl md:mt-5 md:text-xl lg:mx-0 ">
-            Ready to achieve greater results in less time ?
-            Stop procrastinating and Start planning 
-          </p>
-          <div className="mt-5 sm:mt-8 sm:flex justify-start">
+    <>
+      <div className="h-screen p-8 sm:p-12 bg-image md:bg-black bg-cover grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-2 lx:grid-cols-1">
+      <div className="py-24">
+            
+            <p class="text-3xl sm:text-4xl font-bold text-white pb-4">Plan your academic life effectively</p>
+            <p className="mt-4 pb-4 text-white tracking-tight text-xl">
+            Ready to achieve greater results in less time?
+            Stop procrastinating and Start planning
+            </p>
+            <div className="mt-4 sm:mt-8 sm:flex justify-start">
             <div className="rounded-md shadow">
-              <a href="#" className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-primary hover:bg-green-700 md:py-4 md:text-lg md:px-10">
-                Download on Mac
-              </a>
+                    <a href="#" className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-primary hover:bg-green-700 md:py-4 md:text-lg md:px-10">
+                      Download on Mac
+                    </a>
+                  </div>
+
+                  <div className="mt-3 sm:mt-0 sm:ml-3">
+                    <a href="#" className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-black hover:bg-green-500 md:py-4 md:text-lg md:px-10">
+                      Open khotta
+                    </a>
+                  </div>
+
             </div>
-            <div className="mt-3 sm:mt-0 sm:ml-3">
-              <a href="#" className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-black hover:bg-green-500 md:py-4 md:text-lg md:px-10">
-                Open khotta
-              </a>
-            </div>
+            
           </div>
-        </div>
-      </main>
-    </div>
-  </div>
-  
-</div>
+
+      </div>
+      <div className="p-8 sm:p-12">
+       <Feature />
+       <FeatureRe />
+      </div>
+      
+      <div className="h-screen p-8 sm:p-12 bg-image2 grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-2 lx:grid-cols-1">
+      <div className="py-16">
+            <h2 className="text-2xl tracking-tight font-bold md:font-sans text-white md:text-4xl pb-12">
+              Have a flexible planning experience
+              </h2>
+              <p class="text-2xl font-bold text-white">Khotta</p>
+              <p class="text-6xl font-bold text-white pb-4">Sirius</p>
+            <p className="mt-3 text-white tracking-tight">
+            Make Khotta more powerful, improve your GPA.
+            Unlimited plans and schedules, reminders and more.
+            </p>
+            <div className="mt-4 sm:mt-8 sm:flex justify-start">
+            <div className="rounded-md shadow">
+                    <a href="#" className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-primary hover:bg-green-700 md:py-4 md:text-lg md:px-10">
+                      Download on Mac
+                    </a>
+                  </div>
+
+            </div>
+            
+          </div>
+
+          <Image src={Illustration3} alt="Khotta" />
+      </div>
+    </>
   )
 }

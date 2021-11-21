@@ -4,7 +4,8 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: theme => ({
-        'image': "url('/frame.svg')"
+        'image': "url('/frame2.svg')",
+        'image2' : "url('/rocketsbg.svg')"
        }),
 
        backgroundColor: theme => ({
