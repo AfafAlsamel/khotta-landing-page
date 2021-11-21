@@ -50,8 +50,8 @@ export default function Home() {
             <h2 className="text-2xl tracking-tight font-bold md:font-sans text-white md:text-4xl pb-12">
               Have a flexible planning experience
               </h2>
-              <p class="text-2xl font-bold text-white">Khotta</p>
-              <p class="text-6xl font-bold text-white pb-4">Sirius</p>
+              <p className="text-2xl font-bold text-white">Khotta</p>
+              <p className="text-6xl font-bold text-white pb-4">Sirius</p>
             <p className="mt-3 text-white tracking-tight">
             Make Khotta more powerful, improve your GPA.
             Unlimited plans and schedules, reminders and more.
