@@ -17,7 +17,7 @@ export default function Home() {
       <div className="h-screen p-8 sm:p-12 bg-image md:bg-black bg-cover grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-2 lx:grid-cols-1">
       <div className="py-24">
             
-            <p class="text-3xl sm:text-4xl font-bold text-white pb-4">Plan your academic life effectively</p>
+            <p className="text-3xl sm:text-4xl font-bold text-white pb-4">Plan your academic life effectively</p>
             <p className="mt-4 pb-4 text-white tracking-tight text-xl">
             Ready to achieve greater results in less time?
             Stop procrastinating and Start planning

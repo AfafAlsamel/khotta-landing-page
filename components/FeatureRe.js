@@ -33,4 +33,4 @@ const FeatureRe = () => {
   );
 };
 
-export default FeatureRe;
+export default FeatureRe
