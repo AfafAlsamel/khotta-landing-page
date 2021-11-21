@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Illustration from '../public/planspic.svg';
-import React from "react";
 
 const Feature = () => {
   return (
