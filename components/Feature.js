@@ -19,7 +19,7 @@ const Feature = () => {
         </div>
         <div className="flex flex-col items-start justify-center w-full">
           <h3 className="text-2xl tracking-tight font-bold md:font-sans text-black md:text-4xl">
-           Set reminders so you don't forget
+           Set reminders so you dont forget
           </h3>
           <p className="text-base text-black sm:mt-5 sm:text-lg sm:max-w-xl md:mt-5 md:text-xl lg:mx-0 ">
              Ready to achieve greater results in less time?
