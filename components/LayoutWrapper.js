@@ -6,6 +6,7 @@ import Link from './Link'
 import SectionContainer from './SectionContainer'
 //import Footer from './Footer'
 import MobileNav from './MobileNav'
+import Footer from './Footer';
 
 
 const LayoutWrapper = ({ children }) => {
@@ -48,8 +49,9 @@ const LayoutWrapper = ({ children }) => {
           </div>
         </header>
         <main className="mb-auto">{children}</main>
-      
+        <Footer />
       </div>
+    
     </SectionContainer>
   )
 }
