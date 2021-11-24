@@ -75,7 +75,7 @@ export default function Footer() {
             <hr className="w-full h-1 border-primary"></hr>
         </div>
         <div className="flex flex-row-reverse align-middle justify-between my-8 "></div>
-             <span className="flex justify-start"><div class="mr-auto"></div></span>
+             <span className="flex justify-start"><div className="mr-auto"></div></span>
                 <Link href="/" aria-label="Axenda home page">
                   <div className="flex items-start justify-between">
                     <div className="flex h-10 mr-2">
