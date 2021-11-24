@@ -70,12 +70,12 @@ export default function Footer() {
         </form>
         </div>
       </div>
-      <div class="mx-10 mt-10">
+      <div className="mx-10 mt-10">
         <div>
-            <hr class="w-full h-1 border-primary"></hr>
+            <hr className="w-full h-1 border-primary"></hr>
         </div>
-        <div class="flex flex-row-reverse align-middle justify-between my-8 "></div>
-             <span class="flex justify-start"><div class="mr-auto"></div></span>
+        <div className="flex flex-row-reverse align-middle justify-between my-8 "></div>
+             <span className="flex justify-start"><div class="mr-auto"></div></span>
                 <Link href="/" aria-label="Axenda home page">
                   <div className="flex items-start justify-between">
                     <div className="flex h-10 mr-2">
