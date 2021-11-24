@@ -1,8 +1,12 @@
 import Link from './Link'
 import siteMetadata from '../data/siteMetadata'
 import SocialIcon from '../components/social-icons'
+import headerNavLinks from '../data/headerNavLinks'
+import footerNavLinks from '../data/footerNavLinks'
 import Image from 'next/image';
-import Illustration from '../public/logo.svg';
+import KhottaLogo from '../public/logo.svg';
+import AxendaLogo from '../public/axendalogo.svg';
+
 
 
 export default function Footer() {
@@ -12,10 +16,10 @@ export default function Footer() {
       <div className="max-w-screen-xl w-full mx-auto px-6 sm:px-8 lg:px-16 grid grid-rows-6 sm:grid-rows-1 grid-flow-row sm:grid-flow-col grid-cols-3 sm:grid-cols-12 gap-4">
         <div className="row-span-2 sm:col-span-4 col-start-1 col-end-4 sm:col-end-5 flex flex-col items-start ">
         <div>
-            <Link href="/" aria-label="Tailwind CSS Blog">
+            <Link href="/" aria-label="Khotta home page">
               <div className="flex items-start justify-between">
                 <div className="flex h-10 mr-2">
-                <Image src={Illustration} width="50" alt="Khotta"/>
+                <Image src={KhottaLogo} width="50" alt="Khotta"/>
                 </div>
                 {typeof siteMetadata.headerTitle === 'string' ? (
                   <div className="text-white h-6 text-2xl font-semibold sm:block">
@@ -36,39 +40,56 @@ export default function Footer() {
         </div>
         <div className=" row-span-2 sm:col-span-2 sm:col-start-7 sm:col-end-9 flex flex-col">
           <p className="text-white mb-4 font-medium text-lg">Khotta</p>
-          <ul className="text-white ">
-            <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
-              Download{" "}
-            </li>
-            <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
-              Sirius{" "}
-            </li>
-            <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
-              About{" "}
-            </li>
-          </ul>
+          {headerNavLinks.map((link) => (
+                <Link
+                  key={link.title}
+                  href={link.href}
+                  className="my-2 cursor-pointer transition-all text-white"
+                >
+                  {link.title}
+                </Link>
+              ))}
         </div>
         <div className="row-span-2 sm:col-span-2 sm:col-start-9 sm:col-end-11 flex flex-col">
           <p className="text-white mb-4 font-medium text-lg">Axenda</p>
-          <ul className="text-white">
-            <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
-              Website{" "}
-            </li>
-            <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
-              Platforms{" "}
-            </li>
-            <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
-              Community{" "}
-            </li>
-          </ul>
+          {footerNavLinks.map((link) => (
+                <Link
+                  key={link.title}
+                  href={link.href}
+                  className="my-2 cursor-pointer transition-all text-white"
+                >
+                  {link.title}
+                </Link>
+              ))}
         </div>
         <div className="row-span-2 sm:col-span-2 sm:col-end-11 sm:col-start-13 flex flex-col">
         <p className="text-white mb-4 font-medium text-lg">Follow us</p>
-          <form class="flex  mr-auto text-right">
+          <form className="flex  mr-auto text-right">
             <input type="email" className="h-8 px-3 w-full text-white bg-white rounded-md outline-none w-52 text-left mr-3" placeholder="Email"></input>
             <button className="px-5 text-sm w-full transition rounded-lg hover:opacity-90 bg-primary">Send</button>
         </form>
         </div>
+      </div>
+      <div class="mx-10 mt-10">
+        <div>
+            <hr class="w-full h-1 border-primary"></hr>
+        </div>
+        <div class="flex flex-row-reverse align-middle justify-between my-8 "></div>
+             <span class="flex justify-start"><div class="mr-auto"></div></span>
+                <Link href="/" aria-label="Axenda home page">
+                  <div className="flex items-start justify-between">
+                    <div className="flex h-10 mr-2">
+                     <Image src={AxendaLogo} width="50" alt="Khotta"/>
+                    </div>
+                    {typeof siteMetadata.author === 'string' ? (
+                      <div className="text-white h-6 text-2xl font-semibold sm:block">
+                        {siteMetadata.author}
+                      </div>
+                    ) : (
+                      siteMetadata.author
+                    )}
+                    </div>
+                </Link>
       </div>
     </footer>
 

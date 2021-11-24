@@ -15,7 +15,7 @@ const LayoutWrapper = ({ children }) => {
       <div className=" flex flex-col justify-between h-full">
         <header className="flex bg-black items-center justify-between p-8">
           <div>
-            <Link href="/" aria-label="Tailwind CSS Blog">
+            <Link href="/" aria-label="Khotta home page">
               <div className="flex items-start justify-between">
                 <div className="flex h-10 mr-2">
                 <Image src={Illustration} width="50" alt="Khotta"/>
