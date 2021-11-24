@@ -5,7 +5,7 @@ import headerNavLinks from '../data/headerNavLinks'
 import footerNavLinks from '../data/footerNavLinks'
 import Image from 'next/image';
 import KhottaLogo from '../public/logo.svg';
-import AxendaLogo from '../public/axendalogo.svg';
+import AxendaLogo from '../public/axendaLogo.svg';
 
 
 
