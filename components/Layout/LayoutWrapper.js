@@ -1,15 +1,15 @@
-import siteMetadata from '../data/siteMetadata'
-import headerNavLinks from '../data/headerNavLinks'
+import siteMetadata from '../../data/siteMetadata'
+import headerNavLinks from '../../data/headerNavLinks'
 import Image from 'next/image';
-import Illustration from '../public/logo.svg';
+import Illustration from '../../public/logo.svg';
 import Link from './Link'
 import SectionContainer from './SectionContainer'
-//import Footer from './Footer'
 import MobileNav from './MobileNav'
 import Footer from './Footer';
 
 
 const LayoutWrapper = ({ children }) => {
+ 
   return (
     <SectionContainer>
       <div className=" flex flex-col justify-between h-full">

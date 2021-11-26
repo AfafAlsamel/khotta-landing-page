@@ -1,4 +1,4 @@
-import LayoutWrapper from '../components/LayoutWrapper'
+import LayoutWrapper from '../components/Layout/LayoutWrapper'
 import '../styles/globals.css'
 
 function MyApp({ Component, pageProps }) {

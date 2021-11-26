@@ -1,11 +1,11 @@
 import Link from './Link'
-import siteMetadata from '../data/siteMetadata'
-import SocialIcon from '../components/social-icons'
-import headerNavLinks from '../data/headerNavLinks'
-import footerNavLinks from '../data/footerNavLinks'
+import siteMetadata from '../../data/siteMetadata'
+import SocialIcon from '../social-icons'
+import headerNavLinks from '../../data/headerNavLinks'
+import footerNavLinks from '../../data/footerNavLinks'
 import Image from 'next/image';
-import KhottaLogo from '../public/logo.svg';
-import AxendaLogo from '../public/axendaLogo.svg';
+import KhottaLogo from '../../public/logo.svg';
+import AxendaLogo from '../../public/axendaLogo.svg';
 
 
 
