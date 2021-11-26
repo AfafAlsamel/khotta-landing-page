@@ -12,7 +12,7 @@ import GPAFeatur from '../public/Illustrations/gpa-pic.svg';
 
 
 import Rockets from '../public/rockets.svg';
-import SpaceCraft from '../public/spaceCraft.svg';
+import SpaceCraft from '../public/spacecraft.svg';
 import Qoute from '../public/qoute.svg';
 import ButtonPrimary from '../components/misc/ButtonPrimary';
 import ButtonSecondry from '../components/misc/ButtonSecondry';
@@ -53,7 +53,7 @@ export default function Home() {
 
 
 
-      <div className="p-8 sm:p-12">
+      <div className="p-8 bg-mainbg sm:p-12">
       
         <FeatureRe
           title="Set reminders so you dont forget" 
@@ -115,7 +115,7 @@ export default function Home() {
 
 
       
-      <div className="h-auto flex flex-col justify-center p-8">
+      <div className="h-auto bg-mainbg flex flex-col justify-center p-8">
         <div className="bg-black grid grid-cols-1 gap-4 rounded-md p-8">
             <h2 className="text-2xl tracking-tight font-bold md:font-sans text-white md:text-4xl">
               Join our testers
@@ -139,7 +139,7 @@ export default function Home() {
       </div>
 
 
-      <div className="h-auto flex flex-col justify-center p-8 mb-24 mt-20">
+      <div className="h-auto bg-mainbg flex flex-col justify-center p-8 pb-24">
         <Image src={Qoute} alt="Planning-qout" />
         <div className="mt-4 sm:mt-12 sm:flex justify-center">
           <ButtonPrimary>open Khotta</ButtonPrimary>
