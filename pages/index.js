@@ -35,7 +35,7 @@ export default function Home() {
         illustration={SpaceCraft}
         alt="Space craft of Khotta"
         illusWidth="250"
-        addClass="text-right"
+        addClass="flex justify-end items-end"
        />
        
       

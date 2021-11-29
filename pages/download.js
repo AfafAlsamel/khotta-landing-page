@@ -21,7 +21,7 @@ export default function Download() {
         illustration={Laptop}
         alt="Laptop"
         illusWidth="450"
-        addClass="text-center"
+        addClass="flex justify-center items-center"
        />
 
        

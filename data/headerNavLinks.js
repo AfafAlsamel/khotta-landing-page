@@ -1,7 +1,7 @@
 const headerNavLinks = [
     { href: '/', title: 'Home' },
     { href: '/download', title: 'Download' },
-    { href: '/', title: 'Sirius' },
+    { href: '/sirius', title: 'Sirius' },
     { href: '/', title: 'About' },
   ]
   

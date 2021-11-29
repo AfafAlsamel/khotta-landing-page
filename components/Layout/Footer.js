@@ -1,6 +1,6 @@
 import Link from './Link'
 import siteMetadata from '../../data/siteMetadata'
-import SocialIcon from '../social-icons'
+import SocialIcon from '../../public/social-icons'
 import headerNavLinks from '../../data/headerNavLinks'
 import footerNavLinks from '../../data/footerNavLinks'
 import Image from 'next/image';
