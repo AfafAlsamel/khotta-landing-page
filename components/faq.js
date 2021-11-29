@@ -16,9 +16,9 @@ const FAQ = () => {
 				</div>
 				{/* FAQ Items */}
 				<Accordion title="What is Sirius?" content="What Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut" />
-				<Accordion title="Why Sirius?" content="This template can be used as a landing page for your company." />
-				<Accordion title="Is Nitro better? tell me" content="This template can be used as a landing page for your company."/>
-                <Accordion title="Why we still here?" content="This template can be used as a landing page for your company." />
+				<Accordion title="Why Sirius?" content="What Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut" />
+				<Accordion title="Is Nitro better? tell me" content="What Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut"/>
+                <Accordion title="Why we still here?" content="What Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut" />
 			</div>
 		</section>
 	);
