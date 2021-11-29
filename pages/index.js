@@ -16,6 +16,8 @@ import SpaceCraft from '../public/spacecraft.svg';
 import Qoute from '../public/qoute.svg';
 import ButtonPrimary from '../components/misc/ButtonPrimary';
 import ButtonSecondry from '../components/misc/ButtonSecondry';
+import HeroSection from '../components/HeroSection';
+import JoinUsForm from '../components/JoinUsForm';
 
 
 
@@ -25,33 +27,18 @@ export default function Home() {
 
   return (
     <>
-      <div className="h-auto p-8 sm:p-12 bg-image2 sm:bg-image bg-cover grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-2 lx:grid-cols-2">
-
-        <div className="py-24">
-           <p className="text-3xl sm:text-4xl font-bold text-white pb-4">
-             Plan your academic life effectively
-           </p>
-           <p className="mt-4 pb-4 text-white tracking-tight text-xl">
-             Ready to achieve greater results in less time?
-             Stop procrastinating and Start planning
-           </p>
-           <div className="mt-4 sm:mt-8 sm:flex justify-start">
-             <ButtonPrimary>Download on Mac</ButtonPrimary>
-             <ButtonSecondry>Open Khotta</ButtonSecondry>
-           </div>
-        </div>
-
-        <div className="text-right">
-          <Image
-            src={SpaceCraft}
-            alt="Space craft of Khotta"
-            width="250"
-          />
-        </div>
-
-      </div>
-
-
+      <HeroSection
+        title="Plan your academic life effectively"
+        description="Ready to achieve greater results in less time? Stop procrastinating and Start planning"
+        button1={<ButtonPrimary>Download on Mac</ButtonPrimary>}
+        button2={<ButtonSecondry>Open Khotta</ButtonSecondry>}
+        illustration={SpaceCraft}
+        alt="Space craft of Khotta"
+        illusWidth="250"
+        addClass="text-right"
+       />
+       
+      
 
       <div className="p-8 bg-mainbg sm:p-12">
       
@@ -113,31 +100,8 @@ export default function Home() {
         <Image src={Rockets} alt="Sirius rockets" />
       </div>
 
-
       
-      <div className="h-auto bg-mainbg flex flex-col justify-center p-8">
-        <div className="bg-black grid grid-cols-1 gap-4 rounded-md p-8">
-            <h2 className="text-2xl tracking-tight font-bold md:font-sans text-white md:text-4xl">
-              Join our testers
-            </h2>
-            <p className="mt-3 text-white tracking-tight sm:w-2/3">
-                Become a beta tester for Khotta, we want to hear from you!
-                Our goal is to make Khotta the best app for students.
-                You’ll recieve emails telling you about the latest update of Khotta, with link to try it before all students.
-            </p>
-            <div className="mt-4 sm:mt-8 sm:flex justify-start">
-              <form className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-2 lx:grid-cols-1 text-right">
-                 <input 
-                   type="email"
-                   className="px-8 py-3 w-full text-white bg-white rounded-md outline-none text-left mr-3" 
-                   placeholder="Email">
-                 </input>
-                 <ButtonPrimary>Join</ButtonPrimary>
-              </form>
-            </div>
-        </div>
-      </div>
-
+      <JoinUsForm />
 
       <div className="h-auto bg-mainbg flex flex-col justify-center p-8 pb-24">
         <Image src={Qoute} alt="Planning-qout" />
