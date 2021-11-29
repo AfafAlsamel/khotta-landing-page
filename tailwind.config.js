@@ -13,11 +13,17 @@ module.exports = {
        backgroundColor: theme => ({
         'primary': '#42CA90',
         'black': '#1C1D22',
+        'secondryblack': '#25262D',
         'mainbg':'#F6F8F9',
        }),
        borderColor: theme => ({
         'primary': '#42CA90',
-       })
+       }),
+
+       textColor: {
+        'primary': '#42CA90',
+        'black': '#1C1D22',
+      }
        
     },
     
