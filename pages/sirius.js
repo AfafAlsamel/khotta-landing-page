@@ -43,7 +43,7 @@ export default function Sirius() {
             <div className="p-4 text-center sm:text-left">
                 <Image src={WorkDone} alt="Flexible" />
                 <p className="text-2xl font-bold text-black">Get much more work done</p>
-                <p className="text-black tracking-tight">With reminders, you'll know what tasks needs to be completed, and what classes need to be attended.</p>
+                <p className="text-black tracking-tight">With reminders, you will know what tasks needs to be completed, and what classes need to be attended.</p>
             </div>
         </div>
 
