@@ -5,7 +5,7 @@ import Image from 'next/image'
 const HeroSection = ({ title:title, description:description,button1:button1,button2:button2, alt:alt, illustration:illustration, illusWidth:illusWidth, addClass:addClass}) => {
     return (
 
-        <div className="h-auto p-8 sm:p-12 bg-image2 sm:bg-image bg-cover grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-2 lx:grid-cols-2">
+        <div className="h-auto p-8 sm:p-12 bg-heromb sm:bg-hero bg-cover grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-2 lx:grid-cols-2">
 
         <div className="py-24">
            <p className="text-3xl sm:text-4xl font-bold text-white pb-4">

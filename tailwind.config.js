@@ -4,10 +4,10 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: theme => ({
-        'image': "url('/herobg.svg')",
-        'image2' : "url('/mb-hero-bg.svg')",
-        'siriusbg' : "url('/rockets-bg.svg')",
-        'footerbg' : "url('/footerbg.svg')",
+        'hero': "url('/bg-images/hero-bg.svg')",
+        'heromb' : "url('/bg-images/mb-hero-bg.svg')",
+        'siriusbg' : "url('/bg-images/rockets-bg.svg')",
+        'footerbg' : "url('/bg-images/footer-bg.svg')",
        }),
 
        backgroundColor: theme => ({

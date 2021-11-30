@@ -4,8 +4,8 @@ import SocialIcon from '../../public/social-icons'
 import headerNavLinks from '../../data/headerNavLinks'
 import footerNavLinks from '../../data/footerNavLinks'
 import Image from 'next/image';
-import KhottaLogo from '../../public/logo.svg';
-import AxendaLogo from '../../public/axendaLogo.svg';
+import KhottaLogo from '../../public/logos/logo.svg';
+import AxendaLogo from '../../public/logos/axendaLogo.svg';
 
 
 
@@ -13,7 +13,7 @@ const Footer = () => {
   return (
 
     <>
-      <footer className="bg-footerbg pt-44 pb-24">
+      <footer className="bg-footerbg pt-24 pb-24">
         <div className="max-w-screen-xl w-full mx-auto px-6 sm:px-8 lg:px-16 grid sm:grid-cols-12 gap-8 py-8 md:py-12 ">
           <div className="sm:col-span-12 lg:col-span-3 items-start ">
             <div>
