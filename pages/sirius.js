@@ -8,6 +8,7 @@ import JoinUsForm from '../components/JoinUsForm';
 import ButtonSecondry from "../components/misc/ButtonSecondry";
 import ButtonSubscribe from '../components/misc/ButtonSubscribe';
 import SectionHeader from '../components/SectionHeader';
+import SiriusFeatures from '../components/SiriusFeatures';
 
 {/*Images*/ }
 import SiriusRockets from "../public/hero-images/sirius-rockets-pic.svg"
@@ -78,6 +79,9 @@ export default function Sirius() {
 
             {/*Sirius features/plans section */}
             <div className="h-auto p-8 sm:p-12 bg-siriusbg grid grid-cols-1 gap-4">
+
+                <SiriusFeatures />
+
                 <div className="py-16">
                     <SectionHeader
                         title="Best for students"
@@ -92,6 +96,7 @@ export default function Sirius() {
                         Don’t you think it affordable? <span className="text-primary">Tweet us</span>
                     </p>
                 </div>
+
 
                 <SectionHeader
                     title="Short-range plans"
